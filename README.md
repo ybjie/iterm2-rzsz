@@ -11,8 +11,9 @@
 
 - iterm2添加两条tirgger
 
-路径:profiles->default->editProfiles->Advanced中的Tirgger
-分别设置 Regular expression，Action，Parameters，Instant如下
+路径:profiles->default->editProfiles->advanced中的tirgger
+
+分别设置 Regular expression，Action，Parameters，Instant
 
     - 第一条<br/>
         Regular expression: rz waiting to receive.\\*\\*B0100<br/>
