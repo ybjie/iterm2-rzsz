@@ -4,9 +4,9 @@
 # 步骤
 - 安装支持rz和sz命令的lrzsz：brew install lrzsz
 
-- 在本地/usr/local/bin/目录下保存iterm2-send-zmodem.sh 和iterm2-recv-zmodem.sh两个脚本
+- 本地/usr/local/bin/目录下保存 iterm2-send-zmodem.sh 和 iterm2-recv-zmodem.sh 两个脚本
 
-- 设置一下两个脚本的权限，一般 chmod 777 就行了
+- chmod 777 设置两个脚本权限
 
 
 - iterm2添加两条tirgger
