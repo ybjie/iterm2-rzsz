@@ -15,12 +15,12 @@ chmod 777 /usr/local/bin/iterm2-*
 分别设置 Regular expression，Action，Parameters，Instant如下：
 
 - 第一条
-        Regular expression: rz waiting to receive.\*\*B0100<br/>
+        Regular expression: rz waiting to receive./\*/\*B0100<br/>
         Action: Run Silent Coprocess<br/>
         Parameters: /usr/local/bin/iterm2-send-zmodem.sh<br/>
         Instant: checked<br/>
 - 第二条
-        Regular expression: \*\*B00000000000000<br/>
+        Regular expression: /\*/\*B00000000000000<br/>
         Action: Run Silent Coprocess<br/>
         Parameters: /usr/local/bin/iterm2-recv-zmodem.sh<br/>
         Instant: checked<br/>
