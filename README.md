@@ -11,17 +11,17 @@
 
 - iterm2添加两条tirgger
 
-路径:profiles->default->editProfiles->advanced中的tirgger
+    - 路径:profiles->default->editProfiles->advanced中的tirgger
 
-分别设置 Regular expression，Action，Parameters，Instant
+    - 分别设置 Regular expression，Action，Parameters，Instant
 
-    - 第一条<br/>
-        Regular expression: rz waiting to receive.\\*\\*B0100<br/>
-        Action: Run Silent Coprocess<br/>
-        Parameters: /usr/local/bin/iterm2-send-zmodem.sh<br/>
-        Instant: checked<br/>
+    - 第一条
+        Regular expression: rz waiting to receive.\*\*B0100
+        Action: Run Silent Coprocess
+        Parameters: /usr/local/bin/iterm2-send-zmodem.sh
+        Instant: checked
     - 第二条<br/>
-        Regular expression: \\*\\*B00000000000000<br/>
-        Action: Run Silent Coprocess<br/>
-        Parameters: /usr/local/bin/iterm2-recv-zmodem.sh<br/>
-        Instant: checked<br/>
+        Regular expression: \*\*B00000000000000
+        Action: Run Silent Coprocess
+        Parameters: /usr/local/bin/iterm2-recv-zmodem.sh
+        Instant: checked
